@@ -62,9 +62,9 @@ class SnakeGame:
         self.snake.insert(0, self.head.copy())
         reward = 0
         game_over = False
-        if self._is_collision() or self.frame_iteration > 50 * len(self.snake):
+        if self._is_collision() or self.frame_iteration > 95 * len(self.snake):
             game_over = True
-            reward = -20
+            reward = -10
             return reward, game_over, self.score
         if self.head == self.food:
             self.score += 1

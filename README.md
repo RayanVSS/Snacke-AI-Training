@@ -12,7 +12,6 @@ Ce projet propose une implémentation d'un jeu Snake accompagné d'une intellige
     - [Démonstration Graphique](#démonstration-graphique)
 4. [Architecture du Projet](#architecture-du-projet)
 5. [Améliorations Futures](#améliorations-futures)
-6. [Statistique](#statistique)
 
 ## Fonctionnalités
 
@@ -100,5 +99,3 @@ Assurez-vous d'avoir déjà entraîné l'IA (au moins quelques épisodes) afin q
 - Optimiser la représentation de l'état et la fonction de récompense.
 - Développer des visualisations avancées des performances de l'agent (graphiques, statistiques).
 - Explorer le multi-processing pour contourner les limitations du GIL en Python.
-
-## Statistique
