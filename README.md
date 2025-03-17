@@ -51,6 +51,14 @@ pip install pygame numpy
 
 ## Utilisation
 
+### Cloner le dépot 
+
+```bash
+git clone https://github.com/RayanVSS/Snacke-AI-Training
+cd Snake-AI-Training
+```
+
+
 ### Entraînement de l'IA
 
 Pour entraîner l'IA, lancez le script en mode `train` en spécifiant le nombre d'épisodes souhaité. Par exemple, pour entraîner l'agent pendant 2000 épisodes :
